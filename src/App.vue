@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar.vue'
 
 <template>
   <Header></Header>
-  <main id="content">
+  <main id="content" class="grid">
     <Sidebar></Sidebar>
     <router-view></router-view>
   </main>
@@ -16,5 +16,6 @@ import Sidebar from './components/Sidebar.vue'
 <style scoped>
 #content {
   min-height: 95vh;
+  grid-template-columns: 1fr 5fr;
 }
 </style>

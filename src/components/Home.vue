@@ -1,5 +1,5 @@
 <template>
-  <section id="sidebar">Siderbar</section>
+  <div id="home">Home</div>
 </template>
 
 <script>
@@ -9,7 +9,5 @@ export default {
 </script>
 
 <style scoped>
-#sidebar {
-  background-color: #660;
-}
+
 </style>
